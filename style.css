@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    overflow-x: hidden;
+}
+.header-div .mainHeading h1{
+    font-family: "playfair display",serif;
+    color: #b7b7b7;
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 40px;
+}
+.header-div .mainHeading h1:hover{
+    color: rgb(252, 67, 67);
+    cursor: pointer;
+}
+.header-div .mainHeading h3{
+    font-family: "Open sans",sans-serif;
+    color: #b7b7b7;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    margin-top: 1px;
+}
+hr{
+    margin-top: 50px;
+    color: rgb(56, 54, 54);
+    margin: 50px;
+}
+.header-div .Menu{
+    margin-top: 22px;
+}
+.header-div .Menu .menu-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.header-div .Menu .menu-ul li a{
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+}
+.header-div .Menu .menu-ul li a:hover{
+    color: rgb(252, 67, 67);
+}
+.img1{
+    width: 1380px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.para1{
+    color: #7a7a7a;
+    font-size: 21px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 75px;
+    margin: 50px;
+}
+.para2{
+    color: #7a7a7a;
+    font-size: 21px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.img2{
+    width: 880px;
+    height: 495px;
+    padding-left: 225px;
+    padding-top: 40px;
+}
+.icon-socialMedia{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-top: 200px;
+    margin-left: 430px;
+    color: white;
+}
+.icon-socialMedia #faceBook{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icon-socialMedia #instaGram{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icon-socialMedia #linkedIn{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icon-socialMedia #youTube{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.para-copyRight{
+    color: grey;
+    padding: 15px 25px;
+    text-align: center;
+    margin-top: 200px;
+    font: 14px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+.color{
+    color: white;
+}
+.color:hover{
+    color: rgb(252, 67, 67);
+}
